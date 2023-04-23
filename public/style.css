@@ -1,0 +1,154 @@
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th,
+  td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #ddd;
+  }
+  
+  input[type='text'] {
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+
+  /* Responsive layout */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Color scheme */
+  body {
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #5c5c5c;
+  }
+  
+
+
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="text"], textarea {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 10%;
+    margin-bottom: 10px;
+  }
+  
+  /* Fonts */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+    /* Class selector*/
+  /* Padding and margins */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+
+  /* ID Selector*/
+  #myButton {
+    color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+    .myButton:hover {
+    background: #1C6EA4; }
+    .myButton:active {
+    background: #144E75; }
+
+/*https://cssgrid-generator.netlify.app/
+*/
+    .parent {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      }
+      
+      .div1 { grid-area: 1 / 1 / 2 / 2; }
+      .div2 { grid-area: 1 / 2 / 2 / 3; }
+      .div3 { grid-area: 2 / 2 / 3 / 3; }
+      .div4 { grid-area: 2 / 1 / 3 / 2; }
+
+
+/* https://css-generator.netlify.app/layout-flexbox-menu-bar/
+*/
+      .menu-bar {
+        background-color: #1988f7;
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: border-box;
+      }
+      
+      .item {
+        color: white;
+        background-color: transparent;
+        font-size: 18px;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 14px 20px;
+      }
+      
+      .item.title {
+        font-weight: 600;
+      }
+      
+      .item:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+
+
+
+      /*https://www.cssportal.com/css3-flip-switch/
+
+        https://html-css-js.com/css/generator/
+      */

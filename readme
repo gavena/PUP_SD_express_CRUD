@@ -1,0 +1,36 @@
+#Create a new project directory and open a terminal or command prompt inside that directory.
+
+#Initialize a new Node.js project by running the following command:
+
+npm init
+
+#This will create a package.json file in your project directory.
+
+#Install the required dependencies by running the following command:
+
+
+npm install express sqlite3
+
+
+#Run the server
+
+node index.js
+
+#access the server in a browser  http://localhost:3000/
+
+
+
+#to access the db in dbeaver tool
+1. download dbeaver  https://dbeaver.io/download/
+2. run dbeaver.exe
+
+3. in dbeaver click the new datbase cnnection
+   select sqlite connection icon
+   click next
+   in the path inputbox enter the directory of the database.sqlite
+    ex: C:\Edong\workspace\expressCRUDSQL\database.sqlite
+
+    click finish
+
+
+    
