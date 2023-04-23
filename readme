@@ -28,7 +28,7 @@ node index.js
    select sqlite connection icon
    click next
    in the path inputbox enter the directory of the database.sqlite
-    ex: C:\Edong\workspace\expressCRUDSQL\database.sqlite
+    ex: C:\workspace\PUP_SD_express_CRUD\database.sqlite
 
     click finish
 
